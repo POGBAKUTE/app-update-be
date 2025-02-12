@@ -7,6 +7,6 @@ export class BundleManagerController {
 
   @Get()
   getInfo() {
-    return { version: 1 };
+    return { version: 2 };
   }
 }
